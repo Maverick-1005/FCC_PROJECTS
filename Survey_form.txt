@@ -1,0 +1,144 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking out your valuable time</p>
+    <div class="dibba">
+        <form id="survey-form">
+            <fieldset>
+            <label for="name" id="name-label">Name <input  id="name"  type="text" class="lamba" placeholder="Enter your name" required />
+            </label>
+            <label for="email" id="email-label">Email <input id="email" type="email" class="lamba" placeholder="Enter your email" required/>
+            </label>
+            <label for="number" id="number-label">Age (optional) <input type="number" id="number" class="lamba" min="15" max="120" placeholder="Age"/>
+            </label>
+            <label for="occu">Proffession <select class="lamba" id="dropdown">
+                <option>Student</option>
+                <option>Full Time Job</option>
+                <option>Full Time Learner</option>
+                <option>Other</option>
+            </select>
+            <legend>Would yo recommend foodumm to a friend?</legend>
+            <label for="recommendation1">
+                <input type="radio" value="1" id="recommendation1" name="recommendation" class="inline" checked />Definitely 
+                </label>
+                <label for="recommendation2">
+                <input type="radio" value="2" id="recommendation2" name="recommendation" class="inline" />Maybe 
+            </label>
+            <label for="recommendation3"><input type="radio" name="recommendation" value="3" id="recommendation3" class="inline"  />Not Sure
+            </label>
+            </label>
+            <br>
+            <label>What is your favourite feature of Foodumm? </label> <select class="lamba " >
+                <option value="1">Quality Restaurants</option>
+                <option  value="2">Fast Delivery</option>
+                <option value="3">Free Delivery</option>
+                <option value="4">All of the above</option>
+            </select>
+            </label>
+        
+            <label for="improvement1">Improvement Suggestion(if any) </label>
+            <label for="improvement1"><input class="inline" value="1" id="improvement1" type="checkbox" required name="improvement1" /> Faster Delivery
+            </label>
+            <label for="improvement2"><input class="inline" value="2" id="improvement2" type="checkbox" required name="improvement2" /> Website</label>
+                <label for="improvement3"></label><input class="inline" value="3" id="improvement3" type="checkbox" required name="improvement3" /> App</label>
+                <label for="improvement4"></label><input class="inline" value="4" id="improvement4" type="checkbox" required name="improvement4" /> Increase the no. of restaurants</label>
+                <label for="improvement5"></label><input class="inline" value="5" id="improvement5" type="checkbox" required name="improvement5" /> Payment Portals
+            </label>
+            </fieldset>
+            <fieldset>
+    
+            <label for="comment">Any comments or suggestions? 
+                <textarea id="comment" name="comment" rows="5" cols="50" placeholder="Enter your comment here..."></textarea>
+            </label>
+        </fieldset>
+        <input type="submit" id="submit" value="Submit"/>
+        </form>
+    </div>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+h1,p {
+    text-align: center;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    color: white;
+    font-size:22px;
+    font-family: Tahoma;
+}
+.dibba{
+    background-color:rgba(3, 59, 56, 0.35);
+    margin-left:10%;
+    margin-right:10%;
+    border-left: 0px;
+    padding: 10px 20px;
+    
+}
+fieldset{
+    padding-top: 20; 
+    border: none;
+}
+label  {
+    display:block;
+    margin-top:10px;
+    
+}
+.lamba{
+    width:100%;
+    margin-top:10px;
+    margin-bottom: 20px;
+    height:30px;
+}
+input{
+    height:30px;
+    font-size:16px;
+}
+
+ select{
+    height:30px;
+    font-size:16px;
+}
+
+
+textarea{
+    margin-top: 10px;
+    display:block;
+    width:100%;
+    font-size:16px;
+}
+
+input[type="submit"]{
+    display:block;
+    width:100%;
+    margin: 10px auto;
+    background-color: rgb(4, 102, 4);
+    color:whitesmoke;
+    height: 35px;
+    border:none;
+    
+}
+.inline {
+    display:inline;
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  fieldset:last-of-type {
+   padding-top: 0%;
+  }
+
+** end of undefined **
+
